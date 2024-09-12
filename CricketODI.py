@@ -9,7 +9,7 @@ st.set_page_config(page_title="Cricket Insights", page_icon=":bar_chart:", layou
 st.title(":bar_chart: Cricket World Cup Analysis")
 
 # Load data
-csv_file = 'originalDataset'
+csv_file = ''
 df = pd.read_csv(csv_file)
 
 # Save data to Excel
