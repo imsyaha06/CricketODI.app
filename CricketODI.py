@@ -13,7 +13,7 @@ csv_file = 'originalDataset'
 df = pd.read_csv(csv_file)
 
 # Save data to Excel
-excel_file = 'originalDataset.xlsx'
+excel_file = 'originalDataset'
 df.to_excel(excel_file, index=False, engine='openpyxl')
 
 # Sidebar for images and filters
