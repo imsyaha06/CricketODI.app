@@ -11,10 +11,7 @@ st.title(":bar_chart: Cricket World Cup Analysis")
 #----------------------------- Load data--------------------------------#
 csv_file = 'originalDataset.csv'
 df = pd.read_csv(csv_file)
-#------------------------- Save data to Excel------------------------------#
-# excel_file = 'originalDataset.xlsx'
-# df.to_excel(excel_file, index=False, engine='openpyxl')
-
+ 
 #---------------------- Sidebar for images and filters heading-------------------#
 st.sidebar.image('ICC.webp')
 st.sidebar.header("Please Filter Here:")
